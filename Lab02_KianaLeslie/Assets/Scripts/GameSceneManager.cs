@@ -5,27 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class GameSceneManager : MonoBehaviour
 {
-    public void LoadMainMenu()
+    public static void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
     }
-    public void LoadLevelOne()
+    public static void LoadLevelOne()
     {
         SceneManager.LoadScene(1);
     }
-    public void LoadLevelTwo()
+    public static void LoadLevelTwo()
     {
         SceneManager.LoadScene(2);
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

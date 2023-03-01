@@ -16,19 +16,19 @@ public class Barriers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (counter > 5)
-        //{
-        //    barrier.GetComponent<Renderer>().material.color = Color.green;
-        //}
-        //if (counter > 15)
-        //{
-        //    barrier.GetComponent<Renderer>().material.color = Color.magenta;
-        //}
-        //if (counter > 25)
-        //{
-        //    barrier.GetComponent<Renderer>().material.color = Color.red;
-        //}
-        if (counter > 25)
+        if (counter == 3)
+        {
+            barrier.GetComponent<Renderer>().material.color = Color.green;
+        }
+        if (counter == 5)
+        {
+            barrier.GetComponent<Renderer>().material.color = Color.magenta;
+        }
+        if (counter == 7)
+        {
+            barrier.GetComponent<Renderer>().material.color = Color.red;
+        }
+        if (counter > 9)
         {
             Destroy(barrier);
         }

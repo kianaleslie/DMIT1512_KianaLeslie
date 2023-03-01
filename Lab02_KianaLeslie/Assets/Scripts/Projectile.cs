@@ -20,7 +20,6 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Invaders")
         {
-            EnemiesAndLives.enemies = - 1; 
             Destroy(collision.gameObject);
             Destroy(playerProjectile);
             GameManager.playGame = true;

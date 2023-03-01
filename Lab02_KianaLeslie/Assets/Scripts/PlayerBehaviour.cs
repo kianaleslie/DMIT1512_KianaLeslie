@@ -5,19 +5,23 @@ using UnityEngine.InputSystem;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    public int Count { get; private set; }
-    // Start is called before the first frame update
-    void Start()
-    {
-        Count = 0;
-    }
+    //[SerializeField] GameObject playerShip;
+    //public int Lives { get; private set; }
+    ////Start is called before the first frame update
+    //void Start()
+    //{
+    //    Lives = 0;
+    //}
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            Count += 1;
-        }
-    }
+    ////Update is called once per frame
+    //void Update()
+    //{
+    //}
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.tag == "InvaderProjectile")
+    //    {
+    //        Lives = - 1;
+    //    }
+    //}
 }

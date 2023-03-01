@@ -24,6 +24,7 @@ public class InvaderProjectile : MonoBehaviour
             collision.gameObject.transform.position = respawnPlayer;
             Destroy(invaderProjectile);
             GameManager.playGame = false;
+            PlayerShip.Lives = - 1;
         }
         if (collision.gameObject.tag == "Finish")
         {
