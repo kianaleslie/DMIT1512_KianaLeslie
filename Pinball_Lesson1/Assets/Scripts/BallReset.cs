@@ -15,7 +15,7 @@ public class BallReset : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(Mouse.current.leftButton.wasPressedThisFrame)
+        //if (Mouse.current.leftButton.wasPressedThisFrame)
         //{
         //    SetBallPosition(Camera.main.ScreenToWorldPoint(Mouse.current.position.value));
         //}
