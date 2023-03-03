@@ -8,6 +8,7 @@ TagManager:
   - PlayerShip
   - InvaderProjectile
   - Barrier
+  - Boss
   layers:
   - Default
   - TransparentFX

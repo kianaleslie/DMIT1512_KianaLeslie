@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class InvaderProjectile : MonoBehaviour
 {
-    Vector3 respawnPlayer = new Vector3(8, -4, 0);
     [SerializeField] GameObject invaderProjectile;
     // Start is called before the first frame update
     void Start()
@@ -21,10 +20,9 @@ public class InvaderProjectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerShip")
         {
-            collision.gameObject.transform.position = respawnPlayer;
+            collision.gameObject.transform.position = Respawn();
             Destroy(invaderProjectile);
             GameManager.playGame = false;
-            PlayerShip.Lives = - 1;
         }
         if (collision.gameObject.tag == "Finish")
         {
@@ -34,5 +32,11 @@ public class InvaderProjectile : MonoBehaviour
         {
             Destroy(invaderProjectile);
         }
+    }
+    public Vector3 Respawn()
+    {
+        GameManager.playGame = false;
+        Vector3 respawnPlayer = new Vector3(8, -4, 0);
+        return respawnPlayer;
     }
 }

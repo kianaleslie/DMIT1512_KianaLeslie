@@ -24,6 +24,12 @@ public class Projectile : MonoBehaviour
             Destroy(playerProjectile);
             GameManager.playGame = true;
         }
+        if (collision.gameObject.tag == "Boss")
+        {
+            Destroy(collision.gameObject);
+            Destroy(playerProjectile);
+            GameManager.playGame = true;
+        }
         if (collision.gameObject.tag == "Finish")
         {
             Destroy(playerProjectile);

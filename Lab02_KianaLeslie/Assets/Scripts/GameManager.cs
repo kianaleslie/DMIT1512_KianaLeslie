@@ -3,27 +3,68 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Text = TMPro.TMP_Text;
 
 public class GameManager : MonoBehaviour
 {
-    //public static int lives = 3;
     public static bool playGame = true;
-    //public Text livesText;
-    // Start is called before the first frame update
-    void Start()
+    //public PlayerShip player;
+
+    public Text scoreText;
+    public Text livesText;
+
+    public int Score { get; private set; }
+    public int Lives { get; private set; }
+
+    public static void LoadLevelTwo()
     {
-        //livesText = GetComponent<Text>();
-        //livesText.text = $"Lives: {lives}";
+        GameSceneManager.LoadLevelTwo();
+    }
+    public static void LoadMainMenu()
+    {
+        GameSceneManager.LoadMainMenu();
+    }
+    //public static void GameOver()
+    //{
+    //    GameManager.LoadMainMenu();
+    //}
+    public void SetScore(int score)
+    {
+        Score = score;
+        scoreText.text = score.ToString("0");
     }
 
-    // Update is called once per frame
+    public void SetLives(int lives)
+    {
+        Lives = Mathf.Max(lives, 0);
+        livesText.text = lives.ToString();
+    }
+    public void PlayerKilled()
+    {
+        SetLives(Lives - 1);
+        if (Lives > 0)
+        {
+            Respawn();
+        }
+        else
+        {
+            //GameOver();
+        }
+
+    }
+    public Vector3 Respawn()
+    {
+        playGame = false;
+        Vector3 respawnPlayer = new Vector3(8, -4, 0);
+        return respawnPlayer;
+    }
+    void Start()
+    {
+
+    }
     void Update()
     {
-        //livesText.text = $"Lives: {lives}";
-        //if(lives == 0)
-        //{
-        //    GameSceneManager.LoadMainMenu();
-        //}
+
     }
 }

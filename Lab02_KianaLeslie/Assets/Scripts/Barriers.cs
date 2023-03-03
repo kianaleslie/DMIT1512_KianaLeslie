@@ -44,5 +44,9 @@ public class Barriers : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "Boss")
+        {
+            Destroy(gameObject);
+        }
     }
 }
