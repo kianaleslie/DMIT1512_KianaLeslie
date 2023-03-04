@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Data.invaders = 50;
     }
 
     // Update is called once per frame
@@ -20,15 +20,15 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag == "Invaders")
         {
+            Data.invaders -= 1;
+            Data.playerScore += 10;
             Destroy(collision.gameObject);
             Destroy(playerProjectile);
             GameManager.playGame = true;
-        }
-        if (collision.gameObject.tag == "Boss")
-        {
-            Destroy(collision.gameObject);
-            Destroy(playerProjectile);
-            GameManager.playGame = true;
+            if (Data.invaders == 0)
+            {
+                GameManager.LoadLevelTwo();
+            }
         }
         if (collision.gameObject.tag == "Finish")
         {

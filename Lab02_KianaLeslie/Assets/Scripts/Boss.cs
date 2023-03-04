@@ -22,7 +22,7 @@ public class Boss : MonoBehaviour
     {
         if (GameManager.playGame)
         {
-            if (movementCount == 5)
+            if (movementCount == 10)
             {
                 transform.Translate(new Vector3(0, 0f, 0));
                 movementCount = -1;
@@ -30,7 +30,7 @@ public class Boss : MonoBehaviour
                 timer = 0;
             }
             timer += Time.deltaTime;
-            if (timer > movementTimer && movementCount < 5)
+            if (timer > movementTimer && movementCount < 10)
             {
                 transform.Translate(new Vector3(speed, 0, 0));
                 timer = 0;
