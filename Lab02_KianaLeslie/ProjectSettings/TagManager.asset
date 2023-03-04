@@ -9,6 +9,7 @@ TagManager:
   - InvaderProjectile
   - Barrier
   - Boss
+  - Lvl2Invaders
   layers:
   - Default
   - TransparentFX

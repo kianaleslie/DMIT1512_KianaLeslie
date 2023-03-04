@@ -16,9 +16,6 @@ public class Data
 
     public static string invadersText = "Enemies: ";
     public static string livesText = "Lives: ";
-    public static string gameOverText = "Game Over";
-    public static string playAgainText = "Play Again";
     public static string loseText = "YOU LOSE!";
     public static string winText = "YOU WIN!";
-    public static string highScoreText = "High Score: ";
 }

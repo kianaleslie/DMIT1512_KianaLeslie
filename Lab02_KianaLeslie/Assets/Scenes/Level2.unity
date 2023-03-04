@@ -170,6 +170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -243,6 +247,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -318,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -391,6 +403,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -466,6 +482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -540,6 +560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -613,6 +637,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -823,6 +851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -896,6 +928,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -1054,6 +1090,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -1327,6 +1367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1401,6 +1445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1474,6 +1522,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -1752,6 +1804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1910,6 +1966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -1983,6 +2043,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -2058,6 +2122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -2131,6 +2199,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -2206,6 +2278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -2280,6 +2356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2353,6 +2433,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -2490,6 +2574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -2563,6 +2651,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -2638,6 +2730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2711,6 +2807,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -2819,6 +2919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -2892,6 +2996,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -3046,6 +3154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1508302459928940555, guid: b98edcd4bec05da438794236222a70e3, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5817722902659890826, guid: b98edcd4bec05da438794236222a70e3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3183,6 +3295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -3256,6 +3372,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -3331,6 +3451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -3404,6 +3528,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -3479,6 +3607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3552,6 +3684,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -3627,6 +3763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -3700,6 +3840,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -3775,6 +3919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 45
@@ -3848,6 +3996,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -4025,6 +4177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -4098,6 +4254,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -4173,6 +4333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -4247,6 +4411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -4320,6 +4488,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -4491,6 +4663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1508302459928940555, guid: b98edcd4bec05da438794236222a70e3, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5817722902659890826, guid: b98edcd4bec05da438794236222a70e3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4628,6 +4804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invaders (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
+      objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -4701,6 +4881,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -4823,7 +5007,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lives: 3'
+  m_text: 'Lives: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4910,6 +5094,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -5019,7 +5207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invaders: []
-  enemyText: {fileID: 193999953}
+  playerText: {fileID: 2015485453}
+  invaderText: {fileID: 193999953}
 --- !u!1001 &2080740252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5092,6 +5281,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -5166,6 +5359,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -5302,6 +5499,10 @@ PrefabInstance:
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5569490046944791464, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_RootOrder
@@ -5444,6 +5645,10 @@ PrefabInstance:
     - target: {fileID: 1508302459928940555, guid: b98edcd4bec05da438794236222a70e3, type: 3}
       propertyPath: m_Name
       value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508302459928940555, guid: b98edcd4bec05da438794236222a70e3, type: 3}
+      propertyPath: m_TagString
+      value: Invaders
       objectReference: {fileID: 0}
     - target: {fileID: 5817722902659890826, guid: b98edcd4bec05da438794236222a70e3, type: 3}
       propertyPath: m_RootOrder

@@ -6,21 +6,32 @@ using Text = TMPro.TMP_Text;
 
 public class UITextScript : MonoBehaviour
 {
-    [SerializeField] GameObject[] invaders;
-    public static float playerScore = 0;
-    //public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI enemyText;
-    void Start()
-    {
-        //enemyText = GetComponent<TextMeshProUGUI>();
-    }
+    [SerializeField] public static GameObject[] invaders;
+
+    [SerializeField] TMP_Text playerText;
+    public TextMeshProUGUI invaderText;
     void Update()
     {
         invaders = GameObject.FindGameObjectsWithTag("Invaders");
-        enemyText.text = "Enemies: " + invaders.Length.ToString();
+        invaderText.text = "Enemies: " + invaders.Length.ToString();
+        playerText.text = "Lives: " + Data.playerLives.ToString();
+        if (Data.playerLives == 0)
+        {
+            GameManager.LoadGameOver();
+            GameManager.WinOrLose(Data.loseText);
+        }
         if (invaders.Length == 0)
         {
-            GameManager.LoadLevelTwo();
+            if (Data.playerLives > 0)
+            {
+                GameManager.LoadLevelTwo();
+            }
+            else
+                if (Data.playerLives == 0)
+            {
+                GameManager.LoadGameOver();
+                GameManager.WinOrLose(Data.loseText);
+            }
         }
     }
 }

@@ -6,20 +6,32 @@ using UnityEngine;
 public class UITextLevel2 : MonoBehaviour
 {
     [SerializeField] GameObject[] invaders;
-    public static float playerScore = 0;
-    //public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI enemyText;
-    void Start()
-    {
-        //enemyText = GetComponent<TextMeshProUGUI>();
-    }
+
+    [SerializeField] TMP_Text playerText;
+    public TextMeshProUGUI invaderText;
     void Update()
     {
         invaders = GameObject.FindGameObjectsWithTag("Invaders");
-        enemyText.text = "Enemies: " + invaders.Length.ToString();
+        invaderText.text = "Enemies: " + invaders.Length.ToString();
+        playerText.text = "Lives: " + Data.playerLives.ToString();
         if (invaders.Length == 0)
         {
+            if (Data.playerLives > 0)
+            {
+                GameManager.LoadGameOver();
+                GameManager.WinOrLose(Data.winText);
+            }
+            else
+                if (Data.playerLives == 0)
+            {
+                GameManager.LoadGameOver();
+                GameManager.WinOrLose(Data.loseText);
+            }
+        }
+        if (Data.playerLives == 0)
+        {
             GameManager.LoadGameOver();
+            GameManager.WinOrLose(Data.loseText);
         }
     }
 }

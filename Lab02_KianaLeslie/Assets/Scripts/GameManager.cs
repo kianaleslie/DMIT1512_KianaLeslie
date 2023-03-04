@@ -10,13 +10,8 @@ using Unity.VisualScripting;
 public class GameManager : MonoBehaviour
 {
     public static bool playGame = true;
-    public static string text;
-    public static GameManager instance;
-    [SerializeField] TextMeshProUGUI invadersText;
-    public static int enemiesAlive = 50;
-
-    public static int lives = 0;
     public static int highScore;
+    public static string text;
 
     public static void LoadLevelTwo()
     {
@@ -32,44 +27,6 @@ public class GameManager : MonoBehaviour
     }
     public static void WinOrLose(string winOrLose)
     {
-        text = $"You {winOrLose}!" + $"{Data.highScoreText}" + Data.playerScore;
+        text = $"You {winOrLose}!" + $"High Score: " + Data.playerScore;
     }
-    //private void Awake()
-    //{
-    //    if (instance == null)
-    //    {
-    //        instance = this;
-    //    }
-    //}
-    //public void TrackInvadersKilled()
-    //{
-    //    if (enemiesAlive > Data.levelOneInvaders && lives <= Data.playerLives)
-    //    {
-    //        enemiesAlive--;
-    //        if (enemiesAlive == Data.levelOneInvaders && lives <= Data.playerLives)
-    //        {
-    //            LoadLevelTwo();
-    //        }
-    //        //if (lives == 0)
-    //        //{
-    //        //    LoadGameOver();
-    //        //}
-    //    }
-    //    invadersText.text = enemiesAlive.ToString($"Enemies: {enemiesAlive}");
-    //}
-    //public void UpdateInvadersKilled()
-    //{
-    //    invadersText.text = "Enemies: " + enemiesAlive;
-    //}
-    //void Start()
-    //{
-    //    invadersText = GetComponent<TextMeshProUGUI>();
-    //    //UpdateInvadersKilled();
-    //    //invadersText.text = $"Enemies: {enemiesAlive}";  
-    //}
-    //void Update()
-    //{
-    //    // invadersText.text = $"Enemies: {enemiesAlive}";
-    //    //TrackInvadersKilled();
-    //}
 }

@@ -25,12 +25,12 @@ public class Projectile : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(playerProjectile);
             GameManager.playGame = true;
-            if (Data.invaders == 0)
-            {
-                GameManager.LoadLevelTwo();
-            }
         }
         if (collision.gameObject.tag == "Finish")
+        {
+            Destroy(playerProjectile);
+        }
+        if (collision.gameObject.tag == "Barrier")
         {
             Destroy(playerProjectile);
         }

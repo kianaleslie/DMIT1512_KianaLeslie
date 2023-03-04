@@ -7,17 +7,10 @@ public class Invaders : MonoBehaviour
     float timer = 0;
     float movementTimer = 0.5f;
     int movementCount = 0;
-    float speed = 0.25f;
+    [SerializeField] float speed;
     [SerializeField] GameObject invader;
     [SerializeField] GameObject invaderProjectile;
     [SerializeField] GameObject projectileChild;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (GameManager.playGame)

@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (22)
@@ -265,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -275,6 +280,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (35)
@@ -410,6 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -420,6 +430,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (37)
@@ -555,6 +569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -590,6 +605,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (17)
@@ -725,6 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -735,6 +755,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (5)
@@ -870,6 +894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -905,6 +930,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (33)
@@ -1040,6 +1069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1050,6 +1080,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (6)
@@ -1185,6 +1219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1195,6 +1230,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (16)
@@ -1330,6 +1369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1340,6 +1380,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (30)
@@ -1475,6 +1519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1485,6 +1530,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (21)
@@ -1620,6 +1669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1630,6 +1680,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (14)
@@ -1765,6 +1819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -1908,6 +1963,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (26)
@@ -2043,6 +2102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -2053,6 +2113,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (41)
@@ -2141,6 +2205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -2417,6 +2482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (28)
@@ -2552,6 +2621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -2562,6 +2632,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (36)
@@ -2697,6 +2771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -2758,7 +2833,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lives: 3'
+  m_text: 'Lives: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2842,6 +2917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (32)
@@ -2977,6 +3056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -2987,6 +3067,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (12)
@@ -3122,6 +3206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3132,6 +3217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (43)
@@ -3220,6 +3309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3277,6 +3367,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (7)
@@ -3412,6 +3506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3422,6 +3517,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders
@@ -3510,6 +3609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3567,6 +3667,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (8)
@@ -3702,6 +3806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3712,6 +3817,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (11)
@@ -3847,6 +3956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -3857,6 +3967,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (13)
@@ -3992,6 +4106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4002,6 +4117,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (27)
@@ -4137,6 +4256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4249,6 +4369,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (40)
@@ -4337,6 +4461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4394,6 +4519,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (39)
@@ -4529,6 +4658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4574,6 +4704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (10)
@@ -4709,6 +4843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4854,6 +4989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (20)
@@ -4989,6 +5128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -4999,6 +5139,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (3)
@@ -5134,6 +5278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -5144,6 +5289,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (25)
@@ -5279,6 +5428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -5398,6 +5548,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (49)
@@ -5486,6 +5640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -5543,6 +5698,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (48)
@@ -5631,6 +5790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -5746,6 +5906,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (29)
@@ -5881,6 +6045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -5891,6 +6056,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (31)
@@ -6026,6 +6195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6036,6 +6206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (45)
@@ -6124,6 +6298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6181,6 +6356,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (15)
@@ -6316,6 +6495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6326,6 +6506,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (24)
@@ -6461,6 +6645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6471,6 +6656,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (1)
@@ -6606,6 +6795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6616,6 +6806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (46)
@@ -6704,6 +6898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6761,6 +6956,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (18)
@@ -6896,6 +7095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -6906,6 +7106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (44)
@@ -6994,6 +7198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -7051,6 +7256,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (42)
@@ -7139,6 +7348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -7385,6 +7595,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (9)
@@ -7520,6 +7734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -7530,6 +7745,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (2)
@@ -7665,6 +7884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -7675,6 +7895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (34)
@@ -7810,6 +8034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -7878,6 +8103,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (19)
@@ -8013,6 +8242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -8023,6 +8253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (38)
@@ -8158,6 +8392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -8206,7 +8441,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invaders: []
-  enemyText: {fileID: 1215076768}
+  playerText: {fileID: 826819379}
+  invaderText: {fileID: 1215076768}
 --- !u!1001 &1966507132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8272,6 +8508,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (4)
@@ -8407,6 +8647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -8417,6 +8658,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (23)
@@ -8552,6 +8797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -8562,6 +8808,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 674392706}
     m_Modifications:
+    - target: {fileID: 4297927162803651408, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
       propertyPath: m_Name
       value: Invaders (47)
@@ -8650,6 +8900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27d09d952826b649a3d98aae030ddda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.1
   invader: {fileID: 4997889531229110149, guid: 01ddf789fcedad444b49f65ea91c2a74, type: 3}
   invaderProjectile: {fileID: 8660751315717582084, guid: e17dd4b531513c147a257588f3e9dbe9, type: 3}
   projectileChild: {fileID: 0}
@@ -8830,7 +9081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5feb3c8c75e1a6942b0f8d81b0a7fe91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invadersText: {fileID: 0}
 --- !u!1001 &4922068998950803904
 PrefabInstance:
   m_ObjectHideFlags: 0
