@@ -5,13 +5,6 @@ using UnityEngine;
 public class BossProjectile : MonoBehaviour
 {
     [SerializeField] GameObject bossProjectile;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(new Vector3(0, -3 * Time.deltaTime, 0));

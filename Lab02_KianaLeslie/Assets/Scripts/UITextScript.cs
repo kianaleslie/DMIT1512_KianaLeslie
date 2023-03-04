@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using Text = TMPro.TMP_Text;
+using UnityEngine.SceneManagement;
 
 public class UITextScript : MonoBehaviour
 {

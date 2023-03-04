@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Text = TMPro.TMP_Text;
+using UnityEngine.SceneManagement;
 
 public class PlayerShip : MonoBehaviour
 {
