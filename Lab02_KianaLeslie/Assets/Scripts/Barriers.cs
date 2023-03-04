@@ -9,23 +9,22 @@ public class Barriers : MonoBehaviour
     public int counter = 0;
     void Update()
     {
-        if (counter == 3)
+        if (counter == 5)
         {
             barrier.GetComponent<Renderer>().material.color = Color.green;
         }
-        if (counter == 5)
+        if (counter == 7)
         {
             barrier.GetComponent<Renderer>().material.color = Color.magenta;
         }
-        if (counter == 7)
+        if (counter == 9)
         {
             barrier.GetComponent<Renderer>().material.color = Color.red;
         }
-        if (counter > 9)
+        if (counter > 11)
         {
             Destroy(barrier);
         }
-
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -15,7 +15,7 @@ public class Invaders : MonoBehaviour
     {
         if (GameManager.playGame)
         {
-            if (movementCount == 14)
+            if (movementCount == 20)
             {
                 transform.Translate(new Vector3(0, -1f, 0));
                 movementCount = -1;
@@ -23,7 +23,7 @@ public class Invaders : MonoBehaviour
                 timer = 0;
             }
             timer += Time.deltaTime;
-            if (timer > movementTimer && movementCount < 14)
+            if (timer > movementTimer && movementCount < 20)
             {
                 transform.Translate(new Vector3(speed, 0, 0));
                 timer = 0;
