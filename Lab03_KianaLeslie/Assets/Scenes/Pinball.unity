@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d957716ec1110b844b7dc5ed660ac6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backGround: {fileID: 4758579297754011962, guid: 1d431b15a2ff8d54a892b3780e6220ac, type: 3}
+  backGround: {fileID: 5872519366607352752, guid: 3dddeb6b3c96da740b6204d3e9f052e4, type: 3}
 --- !u!114 &519164663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,7 +661,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0, b: 0.89470863, a: 1}
   m_FlipX: 0
@@ -1255,6 +1255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 6769692149126993983, guid: 959b8a5d75b117f448d5cee625aca697, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 959b8a5d75b117f448d5cee625aca697, type: 3}
 --- !u!1 &1288884126
@@ -1643,7 +1647,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1790,6 +1794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightPaddle
       objectReference: {fileID: 0}
+    - target: {fileID: 6769692149126993983, guid: 959b8a5d75b117f448d5cee625aca697, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 959b8a5d75b117f448d5cee625aca697, type: 3}
 --- !u!1001 &2196566552739034594
@@ -1846,6 +1854,10 @@ PrefabInstance:
     - target: {fileID: 3530006563209730558, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111710975550747155, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
