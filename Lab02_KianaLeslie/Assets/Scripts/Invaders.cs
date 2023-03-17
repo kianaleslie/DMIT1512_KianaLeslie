@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Invaders : MonoBehaviour
 {
@@ -37,6 +38,13 @@ public class Invaders : MonoBehaviour
         if (Random.Range(0f, 10000f) < 1)
         {
             projectileChild = Instantiate(invaderProjectile, new Vector3(invader.transform.position.x, invader.transform.position.y - 0.6f, 0), invader.transform.rotation) as GameObject;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene(3);
         }
     }
 }

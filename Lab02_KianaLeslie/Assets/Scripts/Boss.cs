@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -37,6 +38,13 @@ public class Boss : MonoBehaviour
         if (Random.Range(0f, 1500) < 1)
         {
             projectileChild = Instantiate(bossProjectile, new Vector3(boss.transform.position.x, boss.transform.position.y - 0.6f, 0), boss.transform.rotation) as GameObject;
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene(3);
         }
     }
 }
