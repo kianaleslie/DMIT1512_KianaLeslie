@@ -23,7 +23,7 @@ public class PlayerControls : MonoBehaviour
     }
     void Start()
     {
-
+        OnEnable();
     }
     void Update()
     {

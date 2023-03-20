@@ -6,10 +6,13 @@ using UnityEngine.InputSystem;
 public class PaddleBehaviour : MonoBehaviour
 {
     [SerializeField] HingeJoint2D hinge;
-    [SerializeField] float paddleSpeed;
 
     public void Flip(bool isPressed)
     {
         hinge.useMotor = isPressed;
     }
+    //private void Update()
+    //{
+    //    Flip(Keyboard.current.spaceKey.isPressed);
+    //}
 }
