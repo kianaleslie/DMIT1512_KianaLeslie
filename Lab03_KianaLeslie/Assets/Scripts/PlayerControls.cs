@@ -8,6 +8,7 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] PaddleBehaviour leftPaddle;
     [SerializeField] PaddleBehaviour rightPaddle;
 
+
     [SerializeField] InputAction useLeft;
     [SerializeField] InputAction useRight;
 

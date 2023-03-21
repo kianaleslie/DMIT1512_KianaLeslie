@@ -1,32 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using Text = TMPro.TMP_Text;
 
 public class ScoreScript : MonoBehaviour
 {
-    public int score = 0;
-    public Text scoreText;
+    [SerializeField] GameObject score1;
+    [SerializeField] GameObject score2;
+    [SerializeField] GameObject score3;
+    [SerializeField] GameObject ball;
+    protected GameState gameState;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the collision was with a scoring object
-        if (collision.gameObject.CompareTag("ScoringObject"))
+        if (collision.gameObject.tag == "Score1")
         {
-            // Add points to the score
-            score += 10;
-            UpdateScoreText();
+            gameState.score += 5;
+        }
+        if (collision.gameObject.tag == "Score2")
+        {
+            gameState.score += 50;
+        }
+        if (collision.gameObject.tag == "Score3")
+        {
+            gameState.score += 20;
         }
     }
-
-    private void UpdateScoreText()
+    void Start()
     {
-        // Update the score text element with the current score value
-        scoreText.text = "Score: " + score.ToString();
-    }
-    private void Update()
-    {
-        UpdateScoreText();
+        gameState = GameObject.FindObjectOfType<GameState>();
     }
 }

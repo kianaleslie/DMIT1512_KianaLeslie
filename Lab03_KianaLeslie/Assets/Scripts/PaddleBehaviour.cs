@@ -11,8 +11,4 @@ public class PaddleBehaviour : MonoBehaviour
     {
         hinge.useMotor = isPressed;
     }
-    //private void Update()
-    //{
-    //    Flip(Keyboard.current.spaceKey.isPressed);
-    //}
 }
