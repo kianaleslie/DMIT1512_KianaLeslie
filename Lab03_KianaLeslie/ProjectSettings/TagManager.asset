@@ -8,6 +8,8 @@ TagManager:
   - Score1
   - Score2
   - Score3
+  - Ball
+  - DeathZone
   layers:
   - Default
   - TransparentFX

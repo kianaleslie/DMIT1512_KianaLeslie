@@ -13,4 +13,8 @@ public class GameSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public static void LoadGameOver()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

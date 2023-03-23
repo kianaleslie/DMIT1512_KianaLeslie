@@ -6,6 +6,7 @@ public class DeathZone : MonoBehaviour
 {
     [SerializeField] public GameObject ball;
     [SerializeField] public Transform spawn;
+    protected GameState gameState;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,5 +19,4 @@ public class DeathZone : MonoBehaviour
         collision.transform.position = spawn.position;
         collision.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
     }
-  
 }

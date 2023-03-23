@@ -14,7 +14,8 @@ public class ScoreScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Score1")
         {
-            gameState.score += 5;
+            gameState.score += 20;
+
         }
         if (collision.gameObject.tag == "Score2")
         {
@@ -22,11 +23,23 @@ public class ScoreScript : MonoBehaviour
         }
         if (collision.gameObject.tag == "Score3")
         {
-            gameState.score += 20;
+            gameState.score += 5;
+        }
+        if (collision.gameObject.tag == "DeathZone")
+        {
+            gameState.lives -= 1;
+            if(gameState.lives == 0)
+            {
+                GameSceneManager.LoadGameOver();
+            }
         }
     }
     void Start()
     {
         gameState = GameObject.FindObjectOfType<GameState>();
+    }
+    private void Update()
+    {
+        gameState.highScore = gameState.score;
     }
 }
