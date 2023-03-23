@@ -695,13 +695,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 429286600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6438ba6975a193840bf9b3a01e0d187f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c40c0aa1bdb99144bee7a9e75af8b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoringObject1: {fileID: 644720008}
-  scoringObject2: {fileID: 1826688339}
-  scoringObject3: {fileID: 1859495818}
-  timer: 0
+  score1: {fileID: 644720008}
+  score2: {fileID: 1826688339}
+  score3: {fileID: 1859495818}
+  ball: {fileID: 360176366}
 --- !u!1 &461853559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 164487920459250720, guid: ba53390e07acbc840b688b8f09addedd, type: 3}
@@ -1136,6 +1136,7 @@ Transform:
   - {fileID: 1253861870}
   - {fileID: 2079189874}
   - {fileID: 580801074}
+  - {fileID: 897856002}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1467,6 +1468,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2292880938539970701, guid: b66d8964043a41f48a5c36e5d829e242, type: 3}
   m_PrefabInstance: {fileID: 1721076348}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &644720013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644720008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6438ba6975a193840bf9b3a01e0d187f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoringObject: {fileID: 644720008}
+  points: 20
+  timer: 0
 --- !u!1 &649134833
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,7 +1907,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755187422}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: -0.888, y: -4.427, z: 0.33708704}
+  m_LocalPosition: {x: -0.888, y: -3.54, z: 0.33708704}
   m_LocalScale: {x: 0.7957, y: 0.3104, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1969,7 +1985,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 6
+  m_Frequency: 200
 --- !u!50 &755187428
 Rigidbody2D:
   serializedVersion: 4
@@ -1982,7 +1998,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 40
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2323,7 +2339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830183570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.56, y: 3.05, z: 0.028283028}
+  m_LocalPosition: {x: 2.34, y: -2.51, z: 0.028283028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2341,7 +2357,7 @@ GameObject:
   - component: {fileID: 897856002}
   - component: {fileID: 897856001}
   - component: {fileID: 897856000}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2433,13 +2449,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897855999}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -4.953, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.027933778, y: -4.316538, z: 0.3248898}
   m_LocalScale: {x: 5.8407426, y: 0.10625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 558014160}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910948193
 GameObject:
@@ -3172,7 +3188,7 @@ GameObject:
   - component: {fileID: 1280905023}
   - component: {fileID: 1280905022}
   - component: {fileID: 1280905021}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: PlungerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3286,7 +3302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280905020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8230016, y: -6.1, z: 0.33708704}
+  m_LocalPosition: {x: -0.8230016, y: -7.14, z: 0.33708704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3997,7 +4013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728402436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: -5.887, z: 0}
+  m_LocalPosition: {x: 0.03, y: -5.59, z: 0}
   m_LocalScale: {x: 5.8407426, y: 0.425, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4064,7 +4080,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1736270903}
   - component: {fileID: 1736270902}
-  - component: {fileID: 1736270904}
   m_Layer: 0
   m_Name: PlungerAnchor
   m_TagString: Untagged
@@ -4108,26 +4123,6 @@ Transform:
   m_Father: {fileID: 76534199}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!231 &1736270904
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736270901}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 755187428}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_AutoConfigureDistance: 1
-  m_Distance: 0.68312377
-  m_DampingRatio: 0
-  m_Frequency: 6
 --- !u!1001 &1751978246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4275,6 +4270,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7368227948128291150, guid: 881ba40114b6b254ab87cce626ca237d, type: 3}
   m_PrefabInstance: {fileID: 675825564}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1826688344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826688339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6438ba6975a193840bf9b3a01e0d187f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoringObject: {fileID: 1826688339}
+  points: 50
+  timer: 0
 --- !u!1 &1859495818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6213954868340560246, guid: b66d8964043a41f48a5c36e5d829e242, type: 3}
@@ -4335,6 +4345,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2292880938539970701, guid: b66d8964043a41f48a5c36e5d829e242, type: 3}
   m_PrefabInstance: {fileID: 651024311}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1859495823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859495818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6438ba6975a193840bf9b3a01e0d187f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoringObject: {fileID: 1859495818}
+  points: 5
+  timer: 0
 --- !u!1 &2079189873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,7 +4505,7 @@ GameObject:
   - component: {fileID: 2117871225}
   - component: {fileID: 2117871224}
   - component: {fileID: 2117871223}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: PlungerWall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4594,7 +4619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117871222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.8230016, y: -2.51, z: 0.33708704}
+  m_LocalPosition: {x: -0.81, y: -2.51, z: 0.33708704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4630,11 +4655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3530006563209730558, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.91
+      value: 2.42
       objectReference: {fileID: 0}
     - target: {fileID: 3530006563209730558, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: -1.53
       objectReference: {fileID: 0}
     - target: {fileID: 3530006563209730558, guid: ab806b888ac222a4f97620865396ab5b, type: 3}
       propertyPath: m_LocalPosition.z
