@@ -9,6 +9,7 @@ public class ScoreScript : MonoBehaviour
     [SerializeField] GameObject score3;
     [SerializeField] GameObject ball;
     protected GameState gameState;
+     GameStateManager gameStateManager;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -30,6 +31,7 @@ public class ScoreScript : MonoBehaviour
             gameState.lives -= 1;
             if(gameState.lives == 0)
             {
+                gameStateManager.SaveToDisk();
                 GameSceneManager.LoadGameOver();
             }
         }
@@ -37,9 +39,13 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         gameState = GameObject.FindObjectOfType<GameState>();
+        gameStateManager = GameObject.FindObjectOfType<GameStateManager>();
     }
     private void Update()
     {
-        gameState.highScore = gameState.score;
+        if (gameState.score > gameState.highScore)
+        {
+            gameState.highScore = gameState.score;
+        }
     }
 }

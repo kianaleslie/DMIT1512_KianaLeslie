@@ -6,6 +6,7 @@ using UnityEngine;
 public class HighScoreScript : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI highscoreText;
+    [SerializeField] TextMeshProUGUI currentScoreText;
     protected GameState gameState;
     void Start()
     {
@@ -13,7 +14,11 @@ public class HighScoreScript : MonoBehaviour
     }
     void Update()
     {
-        gameState.highScore = gameState.score;
+        currentScoreText.text = $"Your Score: {gameState.score}";
+        if (gameState.score > gameState.highScore)
+        {
+            gameState.highScore = gameState.score;
+        }
         highscoreText.text = $"Highscore: {gameState.highScore}";
     }
 }

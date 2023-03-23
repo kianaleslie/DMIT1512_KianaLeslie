@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlungerBehaviour : MonoBehaviour
 {
-    [SerializeField] SpringJoint2D plungerSlider;
+    [SerializeField] SpringJoint2D plunger;
     public void Pull(float amount)
     {
-        plungerSlider.attachedRigidbody.AddForce(Vector2.down * amount * 16);
-        plungerSlider.distance = amount * 12f;
+        plunger.attachedRigidbody.AddForce(Vector2.down * amount * 16);
+        plunger.distance = amount * 12f;
     }
 }

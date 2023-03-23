@@ -17,7 +17,8 @@ public class GameStateManager : MonoBehaviour
     }
     private void Start()
     {
-        gameState = GameObject.FindObjectOfType<GameState>();   
+        gameState = GameObject.FindObjectOfType<GameState>();  
+        LoadFromDisk();
     }
     public void LoadFromDisk()
     {
@@ -27,6 +28,8 @@ public class GameStateManager : MonoBehaviour
             {
                 string jsonString = sr.ReadToEnd();
                 JsonUtility.FromJsonOverwrite(jsonString, gameState);
+                gameState.lives = 3;
+                gameState.score = 0;
             }
         }
     }
@@ -37,6 +40,7 @@ public class GameStateManager : MonoBehaviour
         {
             sw.Write(jsonString);
         }
+        //Debug.Log(path);
     }
     private void Update()
     {

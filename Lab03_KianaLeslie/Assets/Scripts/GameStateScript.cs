@@ -9,10 +9,4 @@ public class GameStateScript : MonoBehaviour
     {
         gameState = GameObject.FindGameObjectWithTag("GameState").GetComponent<GameState>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
