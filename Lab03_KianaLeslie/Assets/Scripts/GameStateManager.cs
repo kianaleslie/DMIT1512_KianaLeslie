@@ -40,7 +40,6 @@ public class GameStateManager : MonoBehaviour
         {
             sw.Write(jsonString);
         }
-        //Debug.Log(path);
     }
     private void Update()
     {
