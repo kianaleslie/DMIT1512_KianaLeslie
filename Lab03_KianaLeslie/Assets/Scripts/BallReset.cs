@@ -25,24 +25,24 @@ public class BallReset : MonoBehaviour
     //    rb.transform.position = pos;
     //    rb.velocity = Vector2.zero;
     //}
-    public GameState gameState;
+    //public GameState gameState;
 
-    private int lives;
+    //private int lives;
 
-    void Start()
-    {
-        lives = gameState.lives;
-    }
+    //void Start()
+    //{
+    //    lives = gameState.lives;
+    //}
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Ball"))
-        {
-            lives--;
-            if (lives <= 0)
-            {
-                GameSceneManager.LoadGameOver();
-            }
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.CompareTag("Ball"))
+    //    {
+    //        lives--;
+    //        if (lives <= 0)
+    //        {
+    //            GameSceneManager.LoadGameOver();
+    //        }
+    //    }
+    //}
 }
