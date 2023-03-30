@@ -5,8 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
-    /* [SerializeField] */
-    Rigidbody2D rBody;
+    [SerializeField] Rigidbody2D rBody;
     PlayerInput playerInput;
     Vector2 moveVector;
     void Start()
