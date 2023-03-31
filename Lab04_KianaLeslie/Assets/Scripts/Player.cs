@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] GameObject player;
     Rigidbody2D rb;
+    private float directionX = 0f;
     void Start()
     {
        rb = GetComponent<Rigidbody2D>();
@@ -21,7 +22,7 @@ public class Player : MonoBehaviour
         {
             transform.Translate(new Vector3(-7 * Time.deltaTime, 0, 0));
         }
-        float directionX = Input.GetAxisRaw("Horizontal");
+        directionX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(directionX * 7f, rb.velocity.y);
         if (Input.GetKeyDown(KeyCode.Space))
         {
