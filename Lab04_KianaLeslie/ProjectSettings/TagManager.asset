@@ -9,6 +9,7 @@ TagManager:
   - Gem
   - Ladder
   - Enemy
+  - Spikes
   layers:
   - Default
   - TransparentFX

@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Collectables : MonoBehaviour
+public class Collect2 : MonoBehaviour
 {
     private int coins = 0;
     [SerializeField] private TextMeshProUGUI coinText;
@@ -25,7 +24,7 @@ public class Collectables : MonoBehaviour
             //gemText.text = "Gems: " + gems;
             if (gems == 11)
             {
-                GameSceneManager.LoadLevelTwo();
+                GameSceneManager.LoadGameOver();
             }
         }
     }

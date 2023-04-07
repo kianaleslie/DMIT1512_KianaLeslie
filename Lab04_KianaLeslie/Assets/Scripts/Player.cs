@@ -64,4 +64,16 @@ public class Player : MonoBehaviour
         //finds box around player, moves the box down slightly bc the upper box checks for overlap
         return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, ground);
     }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(collision.gameObject.CompareTag("Enemy"))
+    //    {
+    //        Die();
+    //    }
+    //}
+    //private void Die()
+    //{
+    //    rb.bodyType = RigidbodyType2D.Static;
+    //    animate.SetTrigger("Death");
+    //}
 }
