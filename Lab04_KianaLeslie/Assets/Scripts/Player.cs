@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
@@ -9,7 +7,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animate;
     private SpriteRenderer sprite;
-    private BoxCollider2D collider;
+    private new BoxCollider2D collider;
 
     private float directionX;
     [SerializeField] private float speed = 7f;

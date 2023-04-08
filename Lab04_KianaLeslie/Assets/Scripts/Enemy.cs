@@ -1,9 +1,5 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
+
 using TMPro;
-using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
